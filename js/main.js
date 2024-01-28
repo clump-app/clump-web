@@ -40,7 +40,7 @@ $(".nav-mobile-menu").on("click", function () {
 });
 // Header :: End
 
-$(document).on("ready",function () {
+$(document).on("ready", function () {
   owlInitialize();
 });
 
@@ -54,7 +54,7 @@ $(".nav-link").on("click", function () {
   $("body").toggleClass("mobile-menu-open");
 });
 
-// onir-plans mobile owlCarousel
+// clump-plans mobile owlCarousel
 async function owlInitialize() {
   if ($(window).width() < 991) {
     $(".mobile-cards").addClass("owl-carousel owl-theme");
@@ -102,7 +102,7 @@ function triggerMobileOwl() {
   });
 }
 
-//onir-homepage-1 banner-carousel//
+//clump-homepage-1 banner-carousel//
 $(".banner-carousel.owl-carousel").owlCarousel({
   items: 7,
   loop: true,
@@ -132,7 +132,7 @@ $(".banner-carousel.owl-carousel").owlCarousel({
   },
 });
 
-//onir-homepage-3 ss-carousel//
+//clump-homepage-3 ss-carousel//
 $(".ss-carousel.owl-carousel").owlCarousel({
   items: 5,
   loop: true,

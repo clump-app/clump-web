@@ -1,37 +1,6 @@
 /*------------------------------------------------------------------
 [Table of contents]
 
-1. Common
-2. Header / header
-3. Banner Section / .banner-section
-4. Head Section / .page-head
-5. Brand Section / .brand-partner
-
-6. How it works Section / .how-it-works
-7. Features Section / .features
-8. Why Onir Section / .why-onir
-9. Testimonial Section / .testimonial
-10. Onir Plans Section / .onir-plans
-11. Onir Stories Section / .onir-stories
-12. FAQs Section / .faq
-13. Try Onir Section / .try-onir
-14. Subscribe Section / .subscribe
-15. Footer Section / .footer
-16. Homepage 2 / .homepage-2
-17. Homepage 3 / .hp-3
-18. About Page
-19. Contact Page
-20. Blog Page / .blogs
-21. Blog Details / .blog-details
-22. Modals / .modal
-
-[Color codes]
-
-# Primary Color (Buttons, Links): #0E7DFF
-# Dark Blue Color (Headings) #1F1F39
-# Mid Grey (Subheadings, Captions, Paragraphs) rgba(31, 31, 57, 0.5)
-
-*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800;900');
 
@@ -818,27 +787,27 @@ Features Section / .features :: Ends
 */
 
 /*------------------------------------------------------------------
-8. Why Onir Section / .why-onir :: Starts
+8. Why clump Section / .why-clump :: Starts
 */
-.why-onir {
+.why-clump {
 	margin-top: 250px;
 }
 
-.why-onir .why-onir-content {
+.why-clump .why-clump-content {
 	background-color: #FFF0E9;
 	border-radius: 25px;
 	padding: 90px 130px;
 }
 
-.why-onir .title-top {
+.why-clump .title-top {
 	text-align: center;
 }
 
-.why-onir .why-cards {
+.why-clump .why-cards {
 	margin: 80px 0;
 }
 
-.why-onir .why-cards .why-card {
+.why-clump .why-cards .why-card {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -846,7 +815,7 @@ Features Section / .features :: Ends
 	gap: 10px
 }
 
-.why-onir .why-cards .why-img {
+.why-clump .why-cards .why-img {
 	width: 70px;
 	height: 70px;
 	background-color: #fff;
@@ -856,14 +825,14 @@ Features Section / .features :: Ends
 	align-items: center;
 }
 
-.why-onir .why-cards h6 {
+.why-clump .why-cards h6 {
 	font-size: 1em;
 	font-weight: 700;
 	margin-bottom: 0;
 	margin-top: 10px;
 }
 
-.why-onir .why-cards p {
+.why-clump .why-cards p {
 	font-size: 0.7em;
 	font-weight: 400;
 	color: rgba(31, 31, 57, 0.5);
@@ -910,7 +879,7 @@ Features Section / .features :: Ends
 }
 
 /*------------------------------------------------------------------
-Why Onir Section / .why-onir :: Ends
+Why clump Section / .why-clump :: Ends
 */
 
 /*------------------------------------------------------------------
@@ -1078,37 +1047,37 @@ Testimonial Section / .testimonial :: Ends
 */
 
 /*------------------------------------------------------------------
-10. Onir Plans Section / .onir-plans :: Starts
+10. clump Plans Section / .clump-plans :: Starts
 */
-.onir-plans {
+.clump-plans {
 	margin-top: 200px;
 	background: linear-gradient(180deg, #fff 67%, rgba(255, 240, 233, 0.5) 40%);
 	position: relative;
 }
 
-.onir-plans .plan-vectors img.vector-1 {
+.clump-plans .plan-vectors img.vector-1 {
 	position: absolute;
 	top: 23%;
 	left: -10%;
 }
 
-.onir-plans .plan-vectors img.vector-2 {
+.clump-plans .plan-vectors img.vector-2 {
 	position: absolute;
 	top: 0;
 	right: 0
 }
 
-.onir-plans .section-subtitle {
+.clump-plans .section-subtitle {
 	margin-bottom: 100px;
 }
 
-.onir-plans .plan-cards {
+.clump-plans .plan-cards {
 	display: flex;
 	gap: 60px;
 	;
 }
 
-.onir-plans .plan-card {
+.clump-plans .plan-card {
 	background-color: #FFF0E9;
 	padding: 60px 30px;
 	border-radius: 20px;
@@ -1117,7 +1086,7 @@ Testimonial Section / .testimonial :: Ends
 	transition: 0.3s all
 }
 
-.onir-plans .plan-card .popularity {
+.clump-plans .plan-card .popularity {
 	font-size: 10px;
 	font-weight: 700;
 	color: #1F1F39;
@@ -1131,25 +1100,25 @@ Testimonial Section / .testimonial :: Ends
 
 }
 
-.onir-plans .plan-card:hover,
-.onir-plans .plan-card.active {
+.clump-plans .plan-card:hover,
+.clump-plans .plan-card.active {
 	background-color: #0E7DFF;
 	color: #fff
 }
 
-.onir-plans .plan-card .plan-name {
+.clump-plans .plan-card .plan-name {
 	text-align: center;
 	font-size: 1em;
 	font-weight: 700;
 	color: #1F1F39;
 }
 
-.onir-plans .plan-card:hover .plan-name,
-.onir-plans .plan-card.active .plan-name {
+.clump-plans .plan-card:hover .plan-name,
+.clump-plans .plan-card.active .plan-name {
 	color: #fff
 }
 
-.onir-plans .plan-card span {
+.clump-plans .plan-card span {
 	font-size: 0.75em;
 	color: rgba(31, 31, 57, 0.5);
 	text-align: center;
@@ -1157,31 +1126,31 @@ Testimonial Section / .testimonial :: Ends
 	margin-bottom: 60px;
 }
 
-.onir-plans .plan-card:hover span,
-.onir-plans .plan-card.active span {
+.clump-plans .plan-card:hover span,
+.clump-plans .plan-card.active span {
 	color: #fff
 }
 
-.onir-plans .plan-card .plan-amount h3 {
+.clump-plans .plan-card .plan-amount h3 {
 	font-size: 2.5em;
 	font-weight: 700;
 	text-align: center;
 	line-height: 35px;
 }
 
-.onir-plans .plan-card .plan-amount span {
+.clump-plans .plan-card .plan-amount span {
 	padding-left: 50px;
 	font-size: 15px;
 	color: rgba(31, 31, 57, 0.5);
 
 }
 
-.onir-plans .plan-card.active .plan-amount span,
-.onir-plans .plan-card:hover .plan-amount span {
+.clump-plans .plan-card.active .plan-amount span,
+.clump-plans .plan-card:hover .plan-amount span {
 	color: rgba(255, 255, 255, 0.5)
 }
 
-.onir-plans .plan-card button {
+.clump-plans .plan-card button {
 	text-align: center;
 	width: 100%;
 	background-color: #fff;
@@ -1195,19 +1164,19 @@ Testimonial Section / .testimonial :: Ends
 	margin-bottom: 60px;
 }
 
-.onir-plans .plan-card:hover button,
-.onir-plans .plan-card.active button {
+.clump-plans .plan-card:hover button,
+.clump-plans .plan-card.active button {
 	background-color: #FFF0E9;
 
 }
 
-.onir-plans .plan-card ul {
+.clump-plans .plan-card ul {
 	list-style: none;
 
 
 }
 
-.onir-plans .plan-card ul li {
+.clump-plans .plan-card ul li {
 	font-size: 0.75em;
 	line-height: 40px;
 	padding-left: 10px;
@@ -1221,12 +1190,12 @@ Testimonial Section / .testimonial :: Ends
 	padding-right: 13px;
 }
 
-.onir-plans .plan-card:hover .fa-circle-check:before,
-.onir-plans .plan-card.active .fa-circle-check:before {
+.clump-plans .plan-card:hover .fa-circle-check:before,
+.clump-plans .plan-card.active .fa-circle-check:before {
 	color: #fff
 }
 
-.onir-plans .plan-tenure {
+.clump-plans .plan-tenure {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1234,30 +1203,30 @@ Testimonial Section / .testimonial :: Ends
 	gap: 10px;
 }
 
-.onir-plans .plan-tenure>span {
+.clump-plans .plan-tenure>span {
 	font-size: 0.750em;
 	font-weight: 700;
 	color: #1F1F3980;
 }
 
-.onir-plans .plan-tenure>span.active {
+.clump-plans .plan-tenure>span.active {
 	color: #1F1F39;
 }
 
-.onir-plans .switch {
+.clump-plans .switch {
 	position: relative;
 	display: inline-block;
 	width: 60px;
 	height: 34px;
 }
 
-.onir-plans .switch input {
+.clump-plans .switch input {
 	opacity: 0;
 	width: 0;
 	height: 0;
 }
 
-.onir-plans .slider {
+.clump-plans .slider {
 	position: absolute;
 	cursor: pointer;
 	top: 0;
@@ -1269,7 +1238,7 @@ Testimonial Section / .testimonial :: Ends
 	transition: .4s;
 }
 
-.onir-plans .slider:before {
+.clump-plans .slider:before {
 	position: absolute;
 	content: "";
 	height: 26px;
@@ -1281,61 +1250,61 @@ Testimonial Section / .testimonial :: Ends
 	transition: .4s;
 }
 
-.onir-plans input:checked+.slider {
+.clump-plans input:checked+.slider {
 	background-color: rgba(31, 31, 57, 0.07);
 }
 
-.onir-plans input:checked+.slider:before {
+.clump-plans input:checked+.slider:before {
 	-webkit-transform: translateX(26px);
 	-ms-transform: translateX(26px);
 	transform: translateX(26px);
 }
 
 
-.onir-plans .slider.round {
+.clump-plans .slider.round {
 	border-radius: 34px;
 }
 
-.onir-plans .slider.round:before {
+.clump-plans .slider.round:before {
 	border-radius: 50%;
 }
 
 /*------------------------------------------------------------------
-Onir Plans Section / .onir-plans :: Ends
+clump Plans Section / .clump-plans :: Ends
 */
 
 /*------------------------------------------------------------------
-11. Onir Stories Section / .onir-stories :: Starts
+11. clump Stories Section / .clump-stories :: Starts
 */
-.onir-stories {
+.clump-stories {
 	padding-top: 250px;
 	background-color: rgba(255, 240, 233, 0.5);
 	position: relative;
 }
 
-.onir-stories .story-vector img {
+.clump-stories .story-vector img {
 	position: absolute;
 	top: 30%;
 	left: -5%;
 }
 
-.onir-stories .stories-card {
+.clump-stories .stories-card {
 	display: flex;
 	justify-content: space-between;
 	padding: 0px 30px;
 	margin-top: 100px;
 }
 
-.onir-stories .stories-card .story-card {
+.clump-stories .stories-card .story-card {
 	position: relative;
 
 }
 
-.onir-stories .stories-card .story-card img {
+.clump-stories .stories-card .story-card img {
 	border-radius: 20px;
 }
 
-.onir-stories .stories-card .story-card .story-time {
+.clump-stories .stories-card .story-card .story-time {
 	position: absolute;
 	top: 20px;
 	font-size: 14px;
@@ -1344,7 +1313,7 @@ Onir Plans Section / .onir-plans :: Ends
 }
 
 
-.onir-stories .stories-card .story-card .story-content {
+.clump-stories .stories-card .story-card .story-content {
 	background-color: #fff;
 	border-radius: 20px;
 	padding: 20px 40px;
@@ -1356,7 +1325,7 @@ Onir Plans Section / .onir-plans :: Ends
 	bottom: 6%;
 }
 
-.onir-stories .stories-card .story-card .story-content h4 {
+.clump-stories .stories-card .story-card .story-content h4 {
 	font-size: 1em;
 	color: #1F1F39;
 	font-weight: 700;
@@ -1364,12 +1333,12 @@ Onir Plans Section / .onir-plans :: Ends
 	margin-bottom: 10px;
 }
 
-.onir-stories .stories-card .story-card .story-content p {
+.clump-stories .stories-card .story-card .story-content p {
 	font-size: 0.7em;
 	color: rgba(31, 31, 57, 0.5);
 }
 
-.onir-stories .stories-card .story-card .story-content a {
+.clump-stories .stories-card .story-card .story-content a {
 	color: #0E7DFF;
 	font-size: 0.7em;
 	font-weight: 700;
@@ -1377,13 +1346,13 @@ Onir Plans Section / .onir-plans :: Ends
 	transition: 0.3s all;
 }
 
-.onir-stories .stories-card .story-card .story-content a:hover {
+.clump-stories .stories-card .story-card .story-content a:hover {
 	color: #005fcf;
 	text-decoration: underline;
 }
 
 /*------------------------------------------------------------------
-Onir Stories Section / .onir-stories :: Ends
+clump Stories Section / .clump-stories :: Ends
 */
 
 /*------------------------------------------------------------------
@@ -1449,67 +1418,67 @@ FAQs Section / .faq :: Ends
 */
 
 /*------------------------------------------------------------------
-13. Try Onir Section / .try-onir :: Starts
+13. Try clump Section / .try-clump :: Starts
 */
-.try-onir {
+.try-clump {
 	padding-top: 300px;
 	position: relative;
 	background: linear-gradient(180deg, rgba(255, 240, 233, 0.5) 77%, #1F1F39 20%);
 }
 
-.try-onir .try-vectors img.vector-1 {
+.try-clump .try-vectors img.vector-1 {
 	position: absolute;
 	top: -30%;
 	right: -4%;
 }
 
-.try-onir .try-vectors img.vector-2 {
+.try-clump .try-vectors img.vector-2 {
 	position: absolute;
 	top: -3%;
 	left: 9%;
 }
 
-.try-onir .try-vectors img.vector-3 {
+.try-clump .try-vectors img.vector-3 {
 	position: absolute;
 	top: 40%;
 	left: -17%;
 }
 
-.try-onir .try-vectors img.vector-4 {
+.try-clump .try-vectors img.vector-4 {
 	position: absolute;
 	top: 60%;
 	right: -3%;
 }
 
-.try-onir .try-content {
+.try-clump .try-content {
 	background-color: #FFF0E9;
 	padding: 90px 90px 100px 100px;
 	border-radius: 25px;
 }
 
-.try-onir .try-content .section-title {
+.try-clump .try-content .section-title {
 	text-align: left;
 }
 
-.try-onir .try-content .section-subtitle {
+.try-clump .try-content .section-subtitle {
 	margin-top: 15px;
 	margin-bottom: 60px;
 	text-align: left;
 }
 
-.try-onir .try-content .app-download {
+.try-clump .try-content .app-download {
 	justify-content: space-between;
 	width: 94%;
 }
 
-.try-onir .try-onir-img {
+.try-clump .try-clump-img {
 	position: absolute;
 	top: -17%;
 	right: 12%
 }
 
 /*------------------------------------------------------------------
-Try Onir Section / .try-onir :: Ends
+Try clump Section / .try-clump :: Ends
 */
 
 /*------------------------------------------------------------------
@@ -1780,7 +1749,7 @@ Footer Section / .footer :: Ends
 	padding-bottom: 350px;
 }
 
-.homepage-2 .why-onir .why-onir-content {
+.homepage-2 .why-clump .why-clump-content {
 	background-color: #fff;
 	margin-top: -400px;
 }
@@ -1947,7 +1916,7 @@ Homepage 2 / .homepage-2 :: Ends
 	border-radius: 40px;
 }
 
-.hp-3 .onir-plans {
+.hp-3 .clump-plans {
 	background: #fff;
 }
 
@@ -1955,7 +1924,7 @@ Homepage 2 / .homepage-2 :: Ends
 	background-color: #fff;
 }
 
-.hp-3 .try-onir {
+.hp-3 .try-clump {
 	background: linear-gradient(180deg, #fff 77%, #1F1F39 20%);
 }
 
@@ -2237,7 +2206,7 @@ Homepage 3 :: Ends
 	background-color: #0E7DFF;
 }
 
-.about .try-onir {
+.about .try-clump {
 	background: linear-gradient(180deg, #fff 77%, #1F1F39 20%);
 }
 
@@ -2420,7 +2389,7 @@ About Page :: Ends
 	margin-left: 60px;
 }
 
-.contact-sec .try-onir {
+.contact-sec .try-clump {
 	background: linear-gradient(180deg, #fff 77%, #1F1F39 20%);
 }
 
@@ -2487,44 +2456,44 @@ Contact Page :: Ends
 	color: rgba(31, 31, 57, 0.5);
 }
 
-.onir-blogs .blog-cards {
+.clump-blogs .blog-cards {
 	margin-top: 100px;
 	padding: 0 18px;
 }
 
-.onir-blogs .blog-cards .blog-card {
+.clump-blogs .blog-cards .blog-card {
 	transition: 0.3s all;
 	margin-bottom: 100px;
 	cursor: pointer;
 }
 
-.onir-blogs .blog-cards .blog-card .blog-img {
+.clump-blogs .blog-cards .blog-card .blog-img {
 	border-radius: 20px;
 	overflow: hidden;
 }
 
-.onir-blogs .blog-cards .blog-card .blog-img img {
+.clump-blogs .blog-cards .blog-card .blog-img img {
 	transition: 0.3s all;
 	width: 100%;
 	display: block;
 }
 
-.onir-blogs .blog-cards .blog-card:hover .blog-img img {
+.clump-blogs .blog-cards .blog-card:hover .blog-img img {
 	transform: scale(1.1);
 }
 
-.onir-blogs .blog-cards .blog-card .blog-content {
+.clump-blogs .blog-cards .blog-card .blog-content {
 	margin-top: 40px;
 }
 
-.onir-blogs .blog-cards .blog-card .blog-content .blog-time {
+.clump-blogs .blog-cards .blog-card .blog-content .blog-time {
 	font-size: 18px;
 	font-weight: 400;
 	color: rgba(31, 31, 57, 0.5);
 	margin-bottom: 10px;
 }
 
-.onir-blogs .blog-cards .blog-card .blog-content .blog-name {
+.clump-blogs .blog-cards .blog-card .blog-content .blog-name {
 	color: #1F1F39;
 	font-size: 20px;
 	font-weight: 700;
@@ -2532,17 +2501,17 @@ Contact Page :: Ends
 
 }
 
-.onir-blogs .blog-cards .blog-card:hover .blog-content .blog-name {
+.clump-blogs .blog-cards .blog-card:hover .blog-content .blog-name {
 	color: #005fcf;
 }
 
-.onir-blogs .blog-cards .blog-card .blog-content .blog-info {
+.clump-blogs .blog-cards .blog-card .blog-content .blog-info {
 	font-size: 18px;
 	font-weight: 400;
 	color: rgba(31, 31, 57, 0.5);
 }
 
-.onir-blogs .blog-cards .blog-card .blog-content a {
+.clump-blogs .blog-cards .blog-card .blog-content a {
 	color: #0E7DFF;
 	text-decoration: none;
 	font-size: 14px;
@@ -2550,11 +2519,11 @@ Contact Page :: Ends
 	margin-top: 20px;
 }
 
-.onir-blogs .previous-post-btn {
+.clump-blogs .previous-post-btn {
 	text-align: center;
 }
 
-.onir-blogs .previous-post-btn button {
+.clump-blogs .previous-post-btn button {
 	background-color: #FFF0E9;
 	border: none;
 	border-radius: 20px;
@@ -2567,12 +2536,12 @@ Contact Page :: Ends
 	min-width: 300px;
 }
 
-.onir-blogs .previous-post-btn button:hover {
+.clump-blogs .previous-post-btn button:hover {
 	transform: translateY(-10px);
 	background-color: #f9e0d4;
 }
 
-.blogs .try-onir {
+.blogs .try-clump {
 	background: linear-gradient(180deg, #fff 77%, #1F1F39 20%);
 }
 
@@ -2743,11 +2712,11 @@ Blog Page / .blogs :: Ends
 	color: rgba(31, 31, 57, 0.5)
 }
 
-.blog-details .onir-stories {
+.blog-details .clump-stories {
 	background-color: #fff;
 }
 
-.blog-details .try-onir {
+.blog-details .try-clump {
 	background: linear-gradient(180deg, #fff 77%, #1F1F39 20%);
 }
 
